@@ -1,0 +1,22 @@
+{
+    "final_model": "Decision Tree",
+    "selection_method": "Highest lower 95% confidence bound of repeated-CV macro F1",
+    "cross_validation_folds": 5,
+    "cross_validation_repeats": 5,
+    "total_validation_evaluations": 25,
+    "holdout_metrics": {
+        "accuracy": 0.81,
+        "balanced_accuracy": 0.8118957545187053,
+        "precision_macro": 0.8011363636363636,
+        "recall_macro": 0.8118957545187053,
+        "f1_macro": 0.8043455874781176,
+        "f1_weighted": 0.811663062506436,
+        "roc_auc": 0.8556116015132409,
+        "log_loss": 4.108398682458087
+    },
+    "bootstrap_f1_interval": {
+        "lower": 0.7181885945048309,
+        "upper": 0.8795724705092178
+    },
+    "test_set_note": "Previously inspected; metrics are descriptive."
+}

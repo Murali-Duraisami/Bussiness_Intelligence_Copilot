@@ -1,0 +1,37 @@
+{
+    "target_column": "purchased",
+    "problem_type": "classification",
+    "identifier_columns_removed": [
+        "customer_id"
+    ],
+    "original_feature_columns": [
+        "age",
+        "income",
+        "region",
+        "visits",
+        "satisfaction"
+    ],
+    "numeric_features": [
+        "age",
+        "income",
+        "visits",
+        "satisfaction"
+    ],
+    "categorical_features": [
+        "region"
+    ],
+    "transformed_features": [
+        "numeric__age",
+        "numeric__income",
+        "numeric__visits",
+        "numeric__satisfaction",
+        "categorical__region_East",
+        "categorical__region_North",
+        "categorical__region_South",
+        "categorical__region_West"
+    ],
+    "training_rows": 400,
+    "testing_rows": 100,
+    "random_state": 42,
+    "test_size": 0.2
+}
